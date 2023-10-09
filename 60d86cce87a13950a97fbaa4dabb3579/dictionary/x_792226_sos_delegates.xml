@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5093e0bb87adfd50a97fbaa4dabb35be" label="SOS Delegates" max_length="40" name="x_792226_sos_delegates" type="collection">
+        <element label="Application" max_length="4000" name="application" reference="cmdb_ci_business_app" type="glide_list"/>
+        <element label="Delegate" max_length="32" name="delegates" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="End" max_length="40" name="end" type="glide_date_time"/>
+        <element label="Start" max_length="40" name="start" type="glide_date_time"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" mandatory="true" max_length="32" name="user" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="delegates"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

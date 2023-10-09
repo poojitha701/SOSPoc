@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_definition">
+    <asmt_metric_definition action="INSERT_OR_UPDATE">
+        <display>Very Satisfied</display>
+        <metric/>
+        <normalization_input>0</normalization_input>
+        <order/>
+        <selected_image/>
+        <sys_class_name>asmt_metric_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 16:21:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d041354c877d3110a97fbaa4dabb3555</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Very Satisfied</sys_name>
+        <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+        <sys_update_name>asmt_metric_definition_d041354c877d3110a97fbaa4dabb3555</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 16:21:13</sys_updated_on>
+        <unselected_image/>
+        <value>5</value>
+    </asmt_metric_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=d041354c877d3110a97fbaa4dabb3555"/>
+</record_update>

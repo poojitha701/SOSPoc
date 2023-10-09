@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>Sos_survey</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    // Add your code here
+    // var portalSuffix = new sn_ex_emp_fd.FoundationNotificationUtil().getPortalSuffix();
+    // var viewAllUrl = '/' + portalSuffix + '?id=order_status&table=sc_request&sys_id=' + current.sys_id;
+     var requestUrl = '';
+     var buttonText = '';
+    // if (email_action.sys_name.toString() === 'Request survey') {
+        requestUrl = event.parm2;
+        buttonText = gs.getMessage('Take the survey');
+    // } else {
+    //     requestUrl = viewAllUrl;
+    //     buttonText = gs.getMessage('View request');
+    // }
+	//template.print(buttonText);
+
+	var requestNotificationJs = new global.RequestNotificationUtil();
+    requestNotificationJs.createNotificationPrimayAction(template, requestUrl, buttonText);
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 15:54:15</sys_created_on>
+        <sys_id>0948a9c4873d3110a97fbaa4dabb35b7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Sos_survey</sys_name>
+        <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+        <sys_update_name>sys_script_email_0948a9c4873d3110a97fbaa4dabb35b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 16:08:36</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope">
+    <oauth_entity_profile_scope action="INSERT_OR_UPDATE">
+        <oauth_entity_profile display_value="My Google Project default_profile">56ab4bf087757110a97fbaa4dabb35d8</oauth_entity_profile>
+        <oauth_entity_scope display_value="Translate">062b8f3087757110a97fbaa4dabb3508</oauth_entity_scope>
+        <sys_class_name>oauth_entity_profile_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 06:51:39</sys_created_on>
+        <sys_id>5eab4bf087757110a97fbaa4dabb35da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>56ab4bf087757110a97fbaa4dabb35d8</sys_name>
+        <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+        <sys_update_name>oauth_entity_profile_scope_5eab4bf087757110a97fbaa4dabb35da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 06:51:39</sys_updated_on>
+    </oauth_entity_profile_scope>
+</record_update>

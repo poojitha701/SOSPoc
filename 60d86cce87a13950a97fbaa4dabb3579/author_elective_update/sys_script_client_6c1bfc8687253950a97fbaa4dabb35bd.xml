@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Welcome</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.addInfoMessage("Hi " + g_user.getFullName() + ", welcome!");
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 07:18:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c1bfc8687253950a97fbaa4dabb35bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Welcome</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+        <sys_update_name>sys_script_client_6c1bfc8687253950a97fbaa4dabb35bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 07:20:20</sys_updated_on>
+        <table>incident</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</application>
+        <file_path/>
+        <instance_id>069cb5ac1b87a55c19254089bd4bcbc1</instance_id>
+        <instance_name>dev174681</instance_name>
+        <name>sys_script_client_6c1bfc8687253950a97fbaa4dabb35bd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Welcome&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.addInfoMessage("Hi " + g_user.getFullName() + ", welcome!");
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-29 07:18:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6c1bfc8687253950a97fbaa4dabb35bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Welcome&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="SOS" source="x_792226_sos"&gt;60d86cce87a13950a97fbaa4dabb3579&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SOS"&gt;60d86cce87a13950a97fbaa4dabb3579&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_6c1bfc8687253950a97fbaa4dabb35bd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-29 07:20:20&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-276706043</payload_hash>
+        <record_name>Welcome</record_name>
+        <reverted_from/>
+        <source>a8d86cce87a13950a97fbaa4dabb357b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 07:20:20</sys_created_on>
+        <sys_id>a6ebf8c687253950a97fbaa4dabb35a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18adfcf4fa30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 07:20:20</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>6eebf8c650253950e157d22b3f684ba0</update_guid>
+        <update_guid_history>6eebf8c650253950e157d22b3f684ba0:-276706043,117b7846462539501e3d070f89360a64:-1905961450</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-01 06:07:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>944ae61792774427a353f2b6202beb09</sys_id>
+        <sys_metadata>6c1bfc8687253950a97fbaa4dabb35bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Welcome</sys_name>
+        <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+        <sys_parent display_value="Incident">f5cc1b0bb4a32110320f8dc279c804d6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+        <sys_scope_delete display_value="">49bd16baa5124d64b3ad606e221a0810</sys_scope_delete>
+        <sys_update_name>sys_script_client_6c1bfc8687253950a97fbaa4dabb35bd</sys_update_name>
+        <sys_update_version display_value="sys_script_client_6c1bfc8687253950a97fbaa4dabb35bd">a6ebf8c687253950a97fbaa4dabb35a1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-01 06:07:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

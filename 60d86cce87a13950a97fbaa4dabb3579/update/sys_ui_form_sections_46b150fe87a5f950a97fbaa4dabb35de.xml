@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="46b150fe87a5f950a97fbaa4dabb35de" sys_domain="global" table="cmdb_ci_business_app" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 12:11:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2b150fe87a5f950a97fbaa4dabb35e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_business_app" name="cmdb_ci_business_app" sys_domain="global" view="7ec010be87a5f950a97fbaa4dabb3552">46b150fe87a5f950a97fbaa4dabb35de</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_business_app" sys_domain="global" view="7ec010be87a5f950a97fbaa4dabb3552">f6c010be87a5f950a97fbaa4dabb3557</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 12:11:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 12:11:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12b150fe87a5f950a97fbaa4dabb35e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_business_app" name="cmdb_ci_business_app" sys_domain="global" view="7ec010be87a5f950a97fbaa4dabb3552">46b150fe87a5f950a97fbaa4dabb35de</sys_ui_form>
+            <sys_ui_section caption="Contract" display_value="Contract" name="cmdb_ci_business_app" sys_domain="global" view="7ec010be87a5f950a97fbaa4dabb3552">c6b150fe87a5f950a97fbaa4dabb35db</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 12:11:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 12:11:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16b150fe87a5f950a97fbaa4dabb35f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_business_app" name="cmdb_ci_business_app" sys_domain="global" view="7ec010be87a5f950a97fbaa4dabb3552">46b150fe87a5f950a97fbaa4dabb35de</sys_ui_form>
+            <sys_ui_section caption="Owners" display_value="Owners" name="cmdb_ci_business_app" sys_domain="global" view="7ec010be87a5f950a97fbaa4dabb3552">42b150fe87a5f950a97fbaa4dabb35dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 12:11:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 12:11:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2b150fe87a5f950a97fbaa4dabb35f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_business_app" name="cmdb_ci_business_app" sys_domain="global" view="7ec010be87a5f950a97fbaa4dabb3552">46b150fe87a5f950a97fbaa4dabb35de</sys_ui_form>
+            <sys_ui_section caption="Compliance" display_value="Compliance" name="cmdb_ci_business_app" sys_domain="global" view="7ec010be87a5f950a97fbaa4dabb3552">cab150fe87a5f950a97fbaa4dabb35dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 12:11:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 12:11:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96b150fe87a5f950a97fbaa4dabb35fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_business_app" name="cmdb_ci_business_app" sys_domain="global" view="7ec010be87a5f950a97fbaa4dabb3552">46b150fe87a5f950a97fbaa4dabb35de</sys_ui_form>
+            <sys_ui_section caption="Activity" display_value="Activity" name="cmdb_ci_business_app" sys_domain="global" view="7ec010be87a5f950a97fbaa4dabb3552">46b150fe87a5f950a97fbaa4dabb35dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 12:11:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>cmdb_ci_business_app</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 12:11:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46b150fe87a5f950a97fbaa4dabb35de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_business_app</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+            <sys_update_name>sys_ui_form_sections_46b150fe87a5f950a97fbaa4dabb35de</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 12:11:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="SOS Application" name="SOS_Application">7ec010be87a5f950a97fbaa4dabb3552</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

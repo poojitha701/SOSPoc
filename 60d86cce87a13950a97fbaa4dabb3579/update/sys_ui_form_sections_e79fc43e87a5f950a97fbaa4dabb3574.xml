@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="e79fc43e87a5f950a97fbaa4dabb3574" sys_domain="global" table="x_792226_sos_outage" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 12:02:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f9fc43e87a5f950a97fbaa4dabb3577</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_792226_sos_outage" name="x_792226_sos_outage" sys_domain="global" view="Default view">e79fc43e87a5f950a97fbaa4dabb3574</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_792226_sos_outage" sys_domain="global" view="Default view">d85ec43a87a5f950a97fbaa4dabb3534</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 12:02:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 12:02:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab9fc43e87a5f950a97fbaa4dabb3578</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_792226_sos_outage" name="x_792226_sos_outage" sys_domain="global" view="Default view">e79fc43e87a5f950a97fbaa4dabb3574</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_792226_sos_outage" sys_domain="global" view="Default view">e79fc43e87a5f950a97fbaa4dabb3572</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 12:02:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 12:02:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f9fc43e87a5f950a97fbaa4dabb357c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_792226_sos_outage" name="x_792226_sos_outage" sys_domain="global" view="Default view">e79fc43e87a5f950a97fbaa4dabb3574</sys_ui_form>
+            <sys_ui_section caption="Contacts" display_value="Contacts" name="x_792226_sos_outage" sys_domain="global" view="Default view">a79fc43e87a5f950a97fbaa4dabb3573</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 12:02:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_792226_sos_outage</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 12:02:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e79fc43e87a5f950a97fbaa4dabb3574</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_792226_sos_outage</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+            <sys_update_name>sys_ui_form_sections_e79fc43e87a5f950a97fbaa4dabb3574</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 12:02:13</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
