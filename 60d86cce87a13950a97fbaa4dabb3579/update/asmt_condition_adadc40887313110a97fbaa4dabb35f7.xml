@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_condition">
+    <asmt_condition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assessment display_value="SOS Survey">a52d848487313110a97fbaa4dabb35b8</assessment>
+        <assessment_record/>
+        <assessment_record_field/>
+        <business_rule display_value="Auto assessment business rule">a186d8c887753110a97fbaa4dabb354c</business_rule>
+        <condition table="x_792226_sos_request">stateCHANGESTO3^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <duration>1970-01-01 00:00:00</duration>
+        <percent_random>100</percent_random>
+        <related_field_1/>
+        <related_field_2/>
+        <related_field_3/>
+        <related_field_4/>
+        <sys_class_name>asmt_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 09:44:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>adadc40887313110a97fbaa4dabb35f7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+        <sys_update_name>asmt_condition_adadc40887313110a97fbaa4dabb35f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 09:45:38</sys_updated_on>
+        <table>x_792226_sos_request</table>
+        <trigger_random>false</trigger_random>
+        <user_field>requested_for</user_field>
+    </asmt_condition>
+</record_update>

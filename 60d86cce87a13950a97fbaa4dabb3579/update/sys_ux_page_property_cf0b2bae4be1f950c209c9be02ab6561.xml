@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_menu</name>
+        <page display_value="SOS">360b2bae87e1f950a97fbaa4dabb353f</page>
+        <required_translations>[ {
+  "message" : "Admin",
+  "comment" : ""
+}, {
+  "message" : "Admin 1",
+  "comment" : ""
+}, {
+  "message" : "Admin 2",
+  "comment" : ""
+}, {
+  "message" : "Select a Task",
+  "comment" : ""
+}, {
+  "message" : "Select a Tool",
+  "comment" : ""
+}, {
+  "message" : "Tool 1",
+  "comment" : ""
+}, {
+  "message" : "Tool 2",
+  "comment" : ""
+}, {
+  "message" : "Tools",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix>chrome_menu</suffix>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-10-01 09:22:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cf0b2bae4be1f950c209c9be02ab6561</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>chrome_menu</sys_name>
+        <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+        <sys_update_name>sys_ux_page_property_cf0b2bae4be1f950c209c9be02ab6561</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-01 09:46:54</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_792226_sos.360b2bae87e1f950a97fbaa4dabb353f.root.chrome_menu</unique_name>
+        <value>[&#13;
+    {&#13;
+        "value": {&#13;
+            "label": {&#13;
+                "translatable": true,&#13;
+                "message": "Tools"&#13;
+            }&#13;
+        },&#13;
+        "children": {&#13;
+            "items": [&#13;
+                {&#13;
+                    "value": {&#13;
+                        "label": {&#13;
+                            "translatable": true,&#13;
+                            "message": "Select a Tool"&#13;
+                        }&#13;
+                    },&#13;
+                    "children": {&#13;
+                        "items": [&#13;
+                            {&#13;
+                                "value": {&#13;
+                                    "label": {&#13;
+                                        "translatable": true,&#13;
+                                        "message": "Tool 1"&#13;
+                                    },&#13;
+                                    "type": "route",&#13;
+                                    "value": {&#13;
+                                        "route": "article",&#13;
+                                        "fields": {&#13;
+                                            "sysId": "3020c9b1474321009db4b5b08b9a712d"&#13;
+                                        }&#13;
+                                    }&#13;
+                                }&#13;
+                            },&#13;
+                            {&#13;
+                                "value": {&#13;
+                                    "label": {&#13;
+                                        "translatable": true,&#13;
+                                        "message": "Tool 2"&#13;
+                                    },&#13;
+                                    "type": "route",&#13;
+                                    "value": {&#13;
+                                        "route": "article",&#13;
+                                        "fields": {&#13;
+                                            "sysId": "3020c9b1474321009db4b5b08b9a712d"&#13;
+                                        }&#13;
+                                    }&#13;
+                                }&#13;
+                            }&#13;
+                        ]&#13;
+                    }&#13;
+                }&#13;
+            ]&#13;
+        }&#13;
+    },&#13;
+    {&#13;
+        "value": {&#13;
+            "label": {&#13;
+                "translatable": true,&#13;
+                "message": "Admin"&#13;
+            }&#13;
+        },&#13;
+        "children": {&#13;
+            "items": [&#13;
+                {&#13;
+                    "value": {&#13;
+                        "label": {&#13;
+                            "translatable": true,&#13;
+                            "message": "Select a Task"&#13;
+                        }&#13;
+                    },&#13;
+                    "children": {&#13;
+                        "items": [&#13;
+                            {&#13;
+                                "value": {&#13;
+                                    "label": {&#13;
+                                        "translatable": true,&#13;
+                                        "message": "Admin 1"&#13;
+                                    },&#13;
+                                    "type": "route",&#13;
+                                    "value": {&#13;
+                                        "route": "article",&#13;
+                                        "fields": {&#13;
+                                            "sysId": "3020c9b1474321009db4b5b08b9a712d"&#13;
+                                        }&#13;
+                                    }&#13;
+                                }&#13;
+                            },&#13;
+                            {&#13;
+                                "value": {&#13;
+                                    "label": {&#13;
+                                        "translatable": true,&#13;
+                                        "message": "Admin 2"&#13;
+                                    },&#13;
+                                    "type": "route",&#13;
+                                    "value": {&#13;
+                                        "route": "article",&#13;
+                                        "fields": {&#13;
+                                            "sysId": "3020c9b1474321009db4b5b08b9a712d"&#13;
+                                        }&#13;
+                                    }&#13;
+                                }&#13;
+                            }&#13;
+                        ]&#13;
+                    }&#13;
+                }&#13;
+            ]&#13;
+        }&#13;
+    }&#13;
+]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=cf0b2bae4be1f950c209c9be02ab6561"/>
+</record_update>

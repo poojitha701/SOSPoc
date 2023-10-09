@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">070b2bae04e1f950b041f07b76acd4b5</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-10-01 09:22:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c70b2bae1ee1f95017df2b0384ecaeb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+        <sys_update_name>m2m_app_config_theme_c70b2bae1ee1f95017df2b0384ecaeb5</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-01 09:22:28</sys_updated_on>
+        <theme display_value="Light Theme">4f0b2baea3e1f9503297c0880a91dcb5</theme>
+        <ux_app_configuration display_value="SOS Config">3a0b2bae87e1f950a97fbaa4dabb353f</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

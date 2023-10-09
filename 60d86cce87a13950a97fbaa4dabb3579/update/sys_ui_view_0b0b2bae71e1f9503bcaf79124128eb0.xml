@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>custom_portal_settings_x_792226_sos</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-10-01 09:22:30</sys_created_on>
+        <sys_id>0b0b2bae71e1f9503bcaf79124128eb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom portal settings (x_792226_sos)</sys_name>
+        <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+        <sys_update_name>sys_ui_view_0b0b2bae71e1f9503bcaf79124128eb0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-01 09:22:30</sys_updated_on>
+        <title>Custom portal settings (x_792226_sos)</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

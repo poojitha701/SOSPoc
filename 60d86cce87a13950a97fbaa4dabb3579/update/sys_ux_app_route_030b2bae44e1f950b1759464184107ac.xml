@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="SOS Config">3a0b2bae87e1f950a97fbaa4dabb353f</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Attachments</name>
+        <optional_parameters/>
+        <order>300</order>
+        <parent_macroponent display_value="Record Page(task)">4b0b2baefce1f9508a56c992e1e9b5ac</parent_macroponent>
+        <parent_macroponent_composition_element_id>tab_set_1</parent_macroponent_composition_element_id>
+        <route_type>rec_task_attachment</route_type>
+        <screen_type display_value="Attachments">8b0b2baeb1e1f9508157b9e0976513ab</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-10-01 09:22:31</sys_created_on>
+        <sys_id>030b2bae44e1f950b1759464184107ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attachments</sys_name>
+        <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+        <sys_update_name>sys_ux_app_route_030b2bae44e1f950b1759464184107ac</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-01 09:22:31</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=030b2bae44e1f950b1759464184107ac"/>
+</record_update>

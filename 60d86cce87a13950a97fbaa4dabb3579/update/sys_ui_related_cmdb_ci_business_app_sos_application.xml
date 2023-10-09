@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="cmdb_ci_business_app" version="2" view="SOS_Application">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Business Application - SOS Application" name="cmdb_ci_business_app" related_list="NULL" sys_domain="global" view="7ec010be87a5f950a97fbaa4dabb3552">179b1cba87e5f950a97fbaa4dabb3511</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_792226_sos_request.cmdb_ci</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 12:54:39</sys_created_on>
+            <sys_id>539b1cba87e5f950a97fbaa4dabb3512</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 12:54:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Business Application - SOS Application" name="cmdb_ci_business_app" related_list="NULL" sys_domain="global" view="7ec010be87a5f950a97fbaa4dabb3552">179b1cba87e5f950a97fbaa4dabb3511</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_792226_sos_outage.impacted_tools</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 12:54:39</sys_created_on>
+            <sys_id>539b9cfa87e5f950a97fbaa4dabb35ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 12:54:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Business Application - SOS Application" name="cmdb_ci_business_app" related_list="NULL" sys_domain="global" view="7ec010be87a5f950a97fbaa4dabb3552">179b1cba87e5f950a97fbaa4dabb3511</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_792226_sos_subscriptions.applications</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 12:54:39</sys_created_on>
+            <sys_id>579b9cfa87e5f950a97fbaa4dabb35ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 12:54:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Business Application - SOS Application</calculated_name>
+            <filter/>
+            <name>cmdb_ci_business_app</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 12:54:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>179b1cba87e5f950a97fbaa4dabb3511</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Business Application - SOS Application</sys_name>
+            <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+            <sys_update_name>sys_ui_related_cmdb_ci_business_app_SOS_Application</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 12:54:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="SOS Application" name="SOS_Application">7ec010be87a5f950a97fbaa4dabb3552</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

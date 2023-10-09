@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d88eba668721f950a97fbaa4dabb3501" extends="task" label="SOS Task" max_length="40" name="x_792226_sos_request" type="collection">
+        <element label="Approval Required" max_length="40" name="approval_required" type="boolean"/>
+        <element label="History" max_length="4000" name="history" read_only="true" type="journal"/>
+        <element label="Requested For" max_length="32" name="requested_for" reference="sys_user" reference_qual="active=true^web_service_access_only=false^EQ" reference_qual_condition="active=true^web_service_access_only=false^EQ" type="reference"/>
+        <element choice="1" label="Request Type" max_length="40" name="request_type" read_only="true" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Type" max_length="40" name="task_type" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Incident" sequence="10" value="incident"/>
+                <element inactive_on_update="false" label="Request" sequence="20" value="request"/>
+                <element inactive_on_update="false" label="Change" sequence="30" value="change"/>
+            </choice>
+        </element>
+    </element>
+</database>

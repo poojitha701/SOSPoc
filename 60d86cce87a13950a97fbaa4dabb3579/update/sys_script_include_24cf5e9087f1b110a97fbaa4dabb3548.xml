@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_792226_sos.SOSTranslateTextUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SOSTranslateTextUtil</name>
+        <script><![CDATA[var SOSTranslateTextUtil = Class.create();
+SOSTranslateTextUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getTranslateText: function (textInputs) {
+		textInputs = textInputs ? textInputs : this.getParameter("sysparm_text");
+		try {
+			var inputs = {};
+			inputs['texts'] = textInputs; // Array.String 
+			inputs['target_language'] = "fr"; // String 
+			inputs['source_language'] = "en"; // String 
+			//inputs['additional_parameters'] = ; // Array.Object 
+			//inputs['temporary_translations'] = ; // String 
+
+			var result = sn_fd.FlowAPI.getRunner().action('sn_google_trans.translate_text_v3').inForeground().withInputs(inputs).run();
+			var outputs = result.getOutputs();
+
+			var status = outputs['status'];
+			if (status != "Success") {
+				return;
+			}
+			var translatedTextArr = [];
+			var translations = outputs['translations']; // Array.Object
+			for (var i = 0; i < translations.length; i++) {
+				translatedTextArr.push(translations[i].text_translations[0].translated_text);
+			}
+
+
+			// var error_code = outputs['error_code']; // String
+			// var error_message = outputs['error_message']; // String
+			// var temporary_translations = outputs['temporary_translations']; // String
+			return JSON.stringify(translatedTextArr);
+		} catch (err) {
+			gs.error("SOSTranslateTextUtil:getTranslateText\n\n" + err);
+		}
+
+		return;
+
+	},
+
+	type: 'SOSTranslateTextUtil'
+
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 14:24:03</sys_created_on>
+        <sys_id>24cf5e9087f1b110a97fbaa4dabb3548</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>SOSTranslateTextUtil</sys_name>
+        <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+        <sys_update_name>sys_script_include_24cf5e9087f1b110a97fbaa4dabb3548</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 11:11:12</sys_updated_on>
+    </sys_script_include>
+</record_update>

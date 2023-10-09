@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard">
+    <sys_wizard action="INSERT_OR_UPDATE">
+        <back_panel/>
+        <intercepts>x_792226_sos_subscriptions.do</intercepts>
+        <name>SOS Subscriptions</name>
+        <next_panel/>
+        <question>Please select the mode of creation</question>
+        <sys_class_name>sys_wizard</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 05:54:06</sys_created_on>
+        <sys_id>9a640c0b87e53d50a97fbaa4dabb35c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SOS Subscriptions</sys_name>
+        <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+        <sys_update_name>sys_wizard_9a640c0b87e53d50a97fbaa4dabb35c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 05:54:06</sys_updated_on>
+    </sys_wizard>
+</record_update>

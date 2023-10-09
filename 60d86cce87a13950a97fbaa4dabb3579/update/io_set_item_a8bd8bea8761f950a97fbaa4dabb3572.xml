@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Create Incident">8db907268761f950a97fbaa4dabb352d</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-01 07:14:12</sys_created_on>
+        <sys_id>a8bd8bea8761f950a97fbaa4dabb3572</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SOS Task Common Variables.Create Incident</sys_name>
+        <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+        <sys_update_name>io_set_item_a8bd8bea8761f950a97fbaa4dabb3572</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-01 07:14:13</sys_updated_on>
+        <variable_set display_value="SOS Task Common Variables">1e8a47668761f950a97fbaa4dabb35d5</variable_set>
+    </io_set_item>
+</record_update>

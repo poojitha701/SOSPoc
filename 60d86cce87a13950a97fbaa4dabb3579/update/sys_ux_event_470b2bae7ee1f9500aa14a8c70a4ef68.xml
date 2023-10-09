@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>MODAL_SELECTED_RELAY_8b0b2baeb0e1f9501ad7ebb155ac2cae</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Toggle Modal Relay</label>
+        <props>[{"name":"modalId","label":"Modal","fieldType":"string","interfaceApiName":"global.modal","valueType":"string"},{"name":"showModal","label":"Show Modal","fieldType":"boolean","valueType":"string"},{"name":"displayOptions","label":"Modal display options","fieldType":"json","valueType":"string"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-10-01 09:22:28</sys_created_on>
+        <sys_id>470b2bae7ee1f9500aa14a8c70a4ef68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Toggle Modal Relay</sys_name>
+        <sys_package display_value="SOS" source="x_792226_sos">60d86cce87a13950a97fbaa4dabb3579</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SOS">60d86cce87a13950a97fbaa4dabb3579</sys_scope>
+        <sys_update_name>sys_ux_event_470b2bae7ee1f9500aa14a8c70a4ef68</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-01 09:22:28</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=470b2bae7ee1f9500aa14a8c70a4ef68"/>
+</record_update>

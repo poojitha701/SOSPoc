@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="94b4dcb287e5f950a97fbaa4dabb351c" label="SOS Subscriptions" max_length="40" name="x_792226_sos_subscriptions" type="collection">
+        <element label="Applications" max_length="4000" name="applications" reference="cmdb_ci_business_app" reference_floats="true" type="glide_list"/>
+        <element label="Subscriber" max_length="32" name="subscriber" reference="sys_user" reference_floats="true" reference_qual="active=true^web_service_access_only=false^EQ" reference_qual_condition="active=true^web_service_access_only=false^EQ" type="reference"/>
+        <index name="index">
+            <element name="subscriber"/>
+        </index>
+    </element>
+</database>
